@@ -16,7 +16,7 @@ echo "M2_HOME = ${M2_HOME}"
 stage ('buid') {
 steps {
 sh '''
-mvn clean package checkstyle:checkstyle
+maven clean package checkstyle:checkstyle
 '''
 }
 post {
