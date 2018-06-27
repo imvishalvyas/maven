@@ -27,9 +27,9 @@ checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', 
 }
 }
 }
-stage ('tomcat-Staging') {
+stage ('Deploy') {
 steps {
-build 'tomcat-Staging'
+build 'Deploy'
 }
 }
 }
