@@ -13,7 +13,7 @@ echo "M2_HOME = ${M2_HOME}"
 '''
 }
 }
-stage ('Deploy') {
+stage ('Build') {
 steps {
 sh '''
 maven clean package checkstyle:checkstyle
